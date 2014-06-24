@@ -519,7 +519,7 @@
 
         function showCommand(msg)
         {
-            var delay = 3000;
+            var delay = 1000;
 
             var randomId = Math.round(Math.random() * 999999);
             var html = "<div id='" + randomId + "'>" + msg + "</div>";
@@ -614,7 +614,6 @@
 					type="video/divxdps"
 					movie="src=http://trailers.divx.com/html5/Sintel-Trailer-720p.mp4"
 					autoplay="false"
-					ondpserror="javascript:onDpsError()"
 				/>
 			</object>
             <div id="seekBar">
